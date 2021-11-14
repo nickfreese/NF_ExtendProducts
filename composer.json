@@ -1,0 +1,22 @@
+{
+    "name": "nf/module-extendproducts",
+    "description": "Adds an API for defining frontend product data",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nicholas Freese",
+            "email": "nick@nickfreese.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "NF\\ExtendProducts\\": ""
+        }
+    }
+}

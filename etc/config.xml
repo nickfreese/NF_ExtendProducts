@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<extend_products>
+			<general>
+				<allowed_attributes>entity_id,sku,type_id,description,image,attribute_set_id,activity</allowed_attributes>
+				<attribute_allowed_to_match>id,sku,attribute_set_id</attribute_allowed_to_match>
+			</general>
+		</extend_products>
+	</default>
+</config>
